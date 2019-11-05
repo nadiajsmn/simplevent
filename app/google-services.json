@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "780582836619",
+    "firebase_url": "https://simplevent-3addb.firebaseio.com",
+    "project_id": "simplevent-3addb",
+    "storage_bucket": "simplevent-3addb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780582836619:android:ccf93fb061f336114bf78e",
+        "android_client_info": {
+          "package_name": "com.example.simplevent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780582836619-ojhvmig5t6bit5t7plocs3ooubc3jdb9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.simplevent",
+            "certificate_hash": "c230bac54401f2f25f04f6ea048c9a91a233fcdd"
+          }
+        },
+        {
+          "client_id": "780582836619-e73aq4qeeejb5iak9rannl0b8lk24u10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaWbILEBKo9gX2Yp5_rSb0UsDOh6N0dZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780582836619-e73aq4qeeejb5iak9rannl0b8lk24u10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

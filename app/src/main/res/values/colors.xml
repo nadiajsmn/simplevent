@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1C325F</color>
+    <color name="colorPrimaryDark">#1C325F</color>
+    <color name="colorAccent">#727C8E</color>
+
+    <!-- from me -->
+    <color name="black">#000000</color>
+    <color name="dark_blue">#1C325F</color>
+    <color name="light_blue">#727C8E</color>
+    <color name="yellow">#F0C579</color>
+    <color name="peach">#EADCD2</color>
+    <color name="choco">#CFA280</color>
+    <color name="white">#FFFFFF</color>
+</resources>

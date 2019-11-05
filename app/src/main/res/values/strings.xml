@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SIMPLEvent</string>
+    <!-- login area -->
+    <string name="login_btn">SIGN IN</string>
+    <string name="signup_btn">SIGN UP</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login_welcome">Welcome Back!</string>
+
+    <!-- Dashboard Area -->
+    <string name="popular">Most Popular</string>
+    <string name="upcoming">Upcoming Events</string>
+    <string name="farmasi">Farmasi Cup</string>
+    <string name="tglfarmasi">15 November 2019</string>
+    <string name="denpro">Dental Project 2019</string>
+    <string name="tgldenpro">16 November 2019</string>
+
+</resources>
