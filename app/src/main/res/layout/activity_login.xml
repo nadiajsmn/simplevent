@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg">
+    android:background="@drawable/bg"
+    android:theme="@style/AppTheme.FullScreen">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,13 +15,21 @@
         android:layout_alignParentTop="true"
         android:layout_above="@id/input_group">
 
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo_transparent"/>
+
         <TextView
+            android:id="@+id/welcome_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins_semibold"
             android:text="@string/login_welcome"
             android:textColor="@color/dark_blue"
-            android:textSize="20sp" />
+            android:textSize="17sp" />
 
     </LinearLayout>
 
@@ -32,26 +41,28 @@
         android:orientation="vertical"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="120dp"
         android:layout_alignParentBottom="true"
         android:gravity="center">
 
 
         <EditText
+            android:id="@+id/editemail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/edit_text_top"
             android:fontFamily="@font/poppins"
-            android:hint="@string/username"
+            android:hint="@string/email"
             android:inputType="textPersonName"
             android:padding="15dp"
             android:textSize="15sp"/>
 
         <EditText
+            android:id="@+id/editPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/edit_text_bottom"
-            android:hint="Password"
+            android:hint="@string/password"
             android:inputType="textPassword"
             android:fontFamily="@font/poppins"
             android:padding="15dp"
@@ -75,13 +86,16 @@
             android:id="@+id/signUp_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="3dp"
-            android:padding="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:padding="20dp"
             android:text="Don't Have an Account? Sign Up"
             android:textAllCaps="true"
             android:textSize="8dp"
             android:textStyle="bold"
             android:textColor="@color/dark_blue"
             android:fontFamily="@font/poppins"/>
+
     </LinearLayout>
+
 </RelativeLayout>
